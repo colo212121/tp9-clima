@@ -1,0 +1,48 @@
+.app {
+  min-height: 100vh;
+  padding: 24px;
+  background: radial-gradient(1200px 600px at 20% -10%, var(--glow-a), transparent 60%),
+              radial-gradient(1000px 500px at 80% 110%, var(--glow-b), transparent 60%),
+              linear-gradient(180deg, var(--bg), var(--bg-2));
+  color: var(--text);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.app__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  max-width: 960px;
+  margin: 0 auto 16px auto;
+}
+
+.app__title {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.app__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.app__main {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  gap: 20px;
+}
+
+.app__footer {
+  margin-top: 24px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+

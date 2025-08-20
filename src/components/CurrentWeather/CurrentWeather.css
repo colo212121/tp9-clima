@@ -1,0 +1,62 @@
+.current {
+  position: relative;
+  display: grid;
+  gap: 14px;
+  background: radial-gradient(120% 150% at 0% 0%, var(--glow-a), transparent 50%),
+              radial-gradient(120% 150% at 100% 100%, var(--glow-b), transparent 50%),
+              var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+
+.current__main {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.current__temp {
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.current__city {
+  color: var(--muted);
+}
+
+.current__meta {
+  display: flex;
+  gap: 16px;
+  color: var(--muted);
+}
+
+.current__badge {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  padding: 0 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: #fff;
+  background: linear-gradient(135deg, var(--primary), #8b5cf6);
+  border-radius: 999px;
+  margin-right: 6px;
+}
+
+.alert {
+  background: #ffefef;
+  color: #a40000;
+  border: 1px solid #ffcccc;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.placeholder {
+  color: var(--muted);
+}
+
+

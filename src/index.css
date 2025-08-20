@@ -1,0 +1,45 @@
+:root {
+  --bg: #0f172a;
+  --surface: #0b1220;
+  --text: #e5e7eb;
+  --muted: #93a4b9;
+  --border: #243049;
+  --primary: #6366f1;
+  --bg-2: #0b1220;
+  --glow-a: rgba(99,102,241,.25);
+  --glow-b: rgba(236,72,153,.25);
+  --glass: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0));
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--bg);
+  color: var(--text);
+}
+
+[data-theme="light"] {
+  --bg: #f6f8fc;
+  --surface: #ffffff;
+  --text: #0b1220;
+  --muted: #596272;
+  --border: #e6ebf3;
+  --primary: #4f46e5;
+  --bg-2: #eef2ff;
+  --glow-a: rgba(99,102,241,.18);
+  --glow-b: rgba(236,72,153,.16);
+  --glass: linear-gradient(180deg, rgba(0,0,0,0.03), rgba(0,0,0,0));
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+}
+
+input, button {
+  font-family: inherit;
+}
